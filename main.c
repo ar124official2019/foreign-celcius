@@ -27,8 +27,8 @@ int main() {
   
         display("foreign", "celcius", temprature, converted);
     } else {
-        printf("Wrong choice! Exiting...");
-        return 1;
+        printf("Wrong choice! Exiting...\n");
+        return 0;
     }
 
     return 0;
