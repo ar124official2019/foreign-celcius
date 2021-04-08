@@ -5,7 +5,8 @@ float take_temprature(char *type) {
 
     printf("Enter temprature in %s: ", type);
 
-    scanf("%f", &temprature);
+    char enter = '\0';
+    scanf("%f%c", &temprature, &enter);
 
     return temprature;
 }

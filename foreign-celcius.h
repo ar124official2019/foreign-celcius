@@ -2,6 +2,11 @@
 #define __FORIEGN_CELCIUS
 
 /**
+* Execute the major tasks again and again
+*/
+int main_loop();
+
+/**
 * Input the choice of user about
 * Conversion action
 */
